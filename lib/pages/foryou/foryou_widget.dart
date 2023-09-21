@@ -5,27 +5,26 @@ import '/flutter_flow/flutter_flow_widgets.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
-import 'list13_property_listview_model.dart';
-export 'list13_property_listview_model.dart';
+import 'foryou_model.dart';
+export 'foryou_model.dart';
 
-class List13PropertyListviewWidget extends StatefulWidget {
-  const List13PropertyListviewWidget({Key? key}) : super(key: key);
+class ForyouWidget extends StatefulWidget {
+  const ForyouWidget({Key? key}) : super(key: key);
 
   @override
-  _List13PropertyListviewWidgetState createState() =>
-      _List13PropertyListviewWidgetState();
+  _ForyouWidgetState createState() => _ForyouWidgetState();
 }
 
-class _List13PropertyListviewWidgetState
-    extends State<List13PropertyListviewWidget> with TickerProviderStateMixin {
-  late List13PropertyListviewModel _model;
+class _ForyouWidgetState extends State<ForyouWidget>
+    with TickerProviderStateMixin {
+  late ForyouModel _model;
 
   final scaffoldKey = GlobalKey<ScaffoldState>();
 
   @override
   void initState() {
     super.initState();
-    _model = createModel(context, () => List13PropertyListviewModel());
+    _model = createModel(context, () => ForyouModel());
 
     _model.textController ??= TextEditingController();
     _model.tabBarController = TabController(

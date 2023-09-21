@@ -205,7 +205,7 @@ class _PaginainicialWidgetState extends State<PaginainicialWidget> {
                               0.0, 0.0, 0.0, 16.0),
                           child: FFButtonWidget(
                             onPressed: () async {
-                              context.pushNamed('List13PropertyListview');
+                              context.pushNamed('foryou');
                             },
                             text: 'Enter',
                             options: FFButtonOptions(

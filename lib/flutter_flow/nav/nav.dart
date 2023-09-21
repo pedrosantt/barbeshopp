@@ -58,9 +58,9 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           builder: (context, params) => ConfigsCopyWidget(),
         ),
         FFRoute(
-          name: 'List13PropertyListview',
-          path: '/list13PropertyListview',
-          builder: (context, params) => List13PropertyListviewWidget(),
+          name: 'foryou',
+          path: '/foryou',
+          builder: (context, params) => ForyouWidget(),
         )
       ].map((r) => r.toRoute(appStateNotifier)).toList(),
     );

@@ -1,4 +1,4 @@
-# barbeshopp
+# barbe
 
 A new Flutter project.
 
