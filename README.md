@@ -1,6 +1,6 @@
-# barbe
-
-A new Flutter project.
+# barbeshop
+|Grupo: Kauan Nennes, Pedro Jusrtiniano, Santana
+A new Fluter project.
 
 ## Getting Started
 
